@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DemoParse</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_thu_chi">ThuChiActivity</string>
+    <string name="title_activity_gioi_thieu">InfoActivity</string>
+    <string name="title_activity_thong_ke">ThongKeActivity</string>
+    <string name="title_activity_cai_dat">CaiDatActivity</string>
+    <string name="title_activity_saoke">SAOKEActivity</string>
+    <string name="title_activity_info">InfoActivity</string>
+</resources>

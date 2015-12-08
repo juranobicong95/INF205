@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFCC"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Quản lý Thu Chi"
+        android:textSize="40dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:id="@+id/textView7" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Thu Chi"
+        android:layout_weight="0.05"
+        android:background="#CC0033"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/buttonThuChi" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Thống kê"
+        android:layout_marginBottom="10dp"
+        android:background="#CC0033"
+        android:layout_weight="0.05"
+        android:id="@+id/buttonThongKe" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Cài Đặt"
+        android:layout_marginBottom="10dp"
+        android:background="#CC0033"
+        android:layout_weight="0.05"
+        android:id="@+id/buttonCaiDat" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Giới Thiệu"
+        android:layout_weight="0.05"
+        android:background="#CC0033"
+        android:id="@+id/buttonGioiThieu"/>
+</LinearLayout>
